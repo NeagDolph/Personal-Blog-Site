@@ -1,7 +1,7 @@
-baseurl = "/"
+baseurl = "https://neilagrawal.com/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Kaldi"
+title = "Neil's Blog"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
