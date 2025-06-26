@@ -13,7 +13,13 @@
 [[main]]
   name = "Posts"
   pageRef = "post"
+  weight = 9
+
+[[main]]
+  name = "About Me"
+  pageRef = "about"
   weight = 10
+
 
 [[main]]
   identifier = "github"

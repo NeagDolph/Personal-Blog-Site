@@ -1,0 +1,29 @@
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  background: transparent;
+}
+
+/* Hide particles when zen mode is enabled */
+body.zen-mode-enable #particles-js {
+  display: none !important;
+}
+
+/* Hide the default background.svg on elements with particles background */
+.particles-background .single_hero_background {
+  background-image: none !important;
+  background: transparent !important;
+}
+
+/* Ensure particles canvas covers the full area */
+#particles-js canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} 

@@ -1,9 +1,9 @@
 ---
 title: "Building a Crossword Generator with Constraint Satisfaction Programming"
-date: 2024-01-25T10:00:00Z
+date: 2025-06-25T10:00:00Z
 description: "A deep dive into implementing Constraint Satisfaction Programming (CSP) for automatic crossword puzzle generation, breaking down complex AI concepts into understandable steps."
 tags: ["ai", "csp", "constraint satisfaction", "algorithms", "python", "artificial intelligence", "optimization"]
-categories: ["Technology"]
+categories: ["Artificial Intelligence"]
 author: "Neil Agrawal"
 showToc: true
 ---

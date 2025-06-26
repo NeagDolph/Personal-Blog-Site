@@ -5,6 +5,7 @@ site/data/webpack.json
 yarn-error.log
 .netlify/
 .hugo_build.lock
+public/
 
 cypress/videos
 cypress/screenshots
