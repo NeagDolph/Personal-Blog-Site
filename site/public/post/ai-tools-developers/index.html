@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+  <title>AI Tools Every Developer Should Know in 2024 | Neil&#39;s Blog</title>
+
+  
+  
+    <link href="/main.27e79.css" rel="stylesheet">
+  
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <base href="http://localhost:1313/">
+
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400">
+	<meta name="theme-color" content="#fff">
+
+  
+  <meta property="og:url" content="http://localhost:1313/post/ai-tools-developers/">
+  <meta property="og:site_name" content="Neil&#39;s Blog">
+  <meta property="og:title" content="AI Tools Every Developer Should Know in 2024">
+  <meta property="og:description" content="A curated list of AI-powered tools that are genuinely useful for developers, from code generation to debugging and beyond.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2024-01-20T09:15:00+00:00">
+    <meta property="article:modified_time" content="2024-01-20T09:15:00+00:00">
+    <meta property="article:tag" content="Ai">
+    <meta property="article:tag" content="Development Tools">
+    <meta property="article:tag" content="Coding">
+    <meta property="article:tag" content="Automation">
+    <meta property="article:tag" content="Machine Learning">
+    <meta property="og:image" content="http://localhost:1313/img/og-image.jpg">
+
+
+  
+</head>
+  <body class="sans-serif">
+
+    <nav data-nav class="flex justify-between items-center center bg-white divider-grey relative">
+
+	
+	<a href="/" class="pa3 db mr4 h-100 w3 flex-none">
+		<img src="/img/logo.svg" alt="Kaldi logo" class="br0 db mb0 w-100"/>
+	</a>
+
+	
+	<div data-mobile-menu class="mobile-menu-container">
+		<svg viewBox="0 0 100 80" width="40" height="25" class="mobile-menu-icon">
+			<rect class="menu-icon-top mobile-menu-inner" width="100" height="8"></rect>
+			<rect class="menu-icon-middle mobile-menu-inner" y="30" width="100" height="8"></rect>
+			<rect class="menu-icon-bottom mobile-menu-inner" y="60" width="100" height="8"></rect>
+		</svg>
+	</div>
+
+	<ul class="flex b grey-3 nav-menu">
+		<li><a href="/products" class="pa3 no-underline db">Products</a></li>
+
+		<li><a href="/values" class="pa3 no-underline db">Values</a></li>
+
+		<li><a href="/post" class="pa3 no-underline db">Blog</a></li>
+
+		<li><a href="/contact" class="pa3 no-underline db">Contact</a></li>
+	</ul>
+
+</nav>
+
+
+    
+
+  <div class="mw6 center ph3 pv4">
+    <h1 class="f2 lh-title b mb3">AI Tools Every Developer Should Know in 2024</h1>
+    <div class="flex justify-between grey-3">
+      <p>Sat, Jan 20, 2024</p>
+      <p>Read in 4 minutes</p>
+    </div>
+    <div class="cms mw6">
+      <p>A curated list of AI-powered tools that are genuinely useful for developers, from code generation to debugging and beyond.</p>
+      
+      <h1 id="ai-tools-every-developer-should-know-in-2024">AI Tools Every Developer Should Know in 2024</h1>
+<p>AI has moved from hype to reality, especially in software development. While some tools are just marketing fluff, others are genuinely transforming how we write, debug, and deploy code. Here&rsquo;s my curated list of AI tools that actually deliver value.</p>
+<h2 id="code-generation--assistance">Code Generation &amp; Assistance</h2>
+<h3 id="github-copilot">GitHub Copilot</h3>
+<p><strong>What it does:</strong> AI pair programmer that suggests code as you type<br>
+<strong>Best for:</strong> Boilerplate code, common patterns, documentation<br>
+<strong>Pro tip:</strong> Use descriptive comments to guide Copilot&rsquo;s suggestions</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// Create a function to validate email addresses using regex
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">validateEmail</span>(<span style="color:#a6e22e">email</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">emailRegex</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">/^[^\s@]+@[^\s@]+\.[^\s@]+$/</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">emailRegex</span>.<span style="color:#a6e22e">test</span>(<span style="color:#a6e22e">email</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="chatgptclaude-for-development">ChatGPT/Claude for Development</h3>
+<p><strong>What it does:</strong> Conversational AI for complex programming questions<br>
+<strong>Best for:</strong> Code review, architecture decisions, learning new technologies<br>
+<strong>Pro tip:</strong> Provide context about your tech stack and constraints</p>
+<h3 id="cursor">Cursor</h3>
+<p><strong>What it does:</strong> AI-first code editor built on VS Code<br>
+<strong>Best for:</strong> Natural language code editing and refactoring<br>
+<strong>Why it&rsquo;s special:</strong> Designed from the ground up for AI-assisted development</p>
+<h2 id="debugging--testing">Debugging &amp; Testing</h2>
+<h3 id="codium-ai">Codium AI</h3>
+<p><strong>What it does:</strong> Generates comprehensive test cases for your code<br>
+<strong>Best for:</strong> Unit tests, edge case discovery, test-driven development<br>
+<strong>Real impact:</strong> Can reduce testing time by 60-80%</p>
+<h3 id="deepcode-now-snyk-code">DeepCode (now Snyk Code)</h3>
+<p><strong>What it does:</strong> AI-powered static analysis for security vulnerabilities<br>
+<strong>Best for:</strong> Finding security issues, code quality improvements<br>
+<strong>Coverage:</strong> Supports 10+ programming languages</p>
+<h2 id="documentation--communication">Documentation &amp; Communication</h2>
+<h3 id="notion-ai">Notion AI</h3>
+<p><strong>What it does:</strong> AI writing assistant integrated into Notion<br>
+<strong>Best for:</strong> Technical documentation, project planning, meeting notes<br>
+<strong>Developer use case:</strong> Automatically generate API documentation from code comments</p>
+<h3 id="grammarly-for-developers">Grammarly for Developers</h3>
+<p><strong>What it does:</strong> Writing assistance for technical communication<br>
+<strong>Best for:</strong> Code comments, commit messages, technical emails<br>
+<strong>Hidden benefit:</strong> Helps non-native speakers communicate more effectively</p>
+<h2 id="devops--infrastructure">DevOps &amp; Infrastructure</h2>
+<h3 id="github-actions-ai-assistant">GitHub Actions AI Assistant</h3>
+<p><strong>What it does:</strong> Suggests workflow improvements and troubleshoots CI/CD issues<br>
+<strong>Best for:</strong> Optimizing build times, fixing deployment failures<br>
+<strong>Time saver:</strong> Reduces debugging time for complex pipelines</p>
+<h3 id="datadog-ai-assistant">Datadog AI Assistant</h3>
+<p><strong>What it does:</strong> Intelligent monitoring and anomaly detection<br>
+<strong>Best for:</strong> Performance optimization, incident response<br>
+<strong>Value:</strong> Proactive issue detection before users are affected</p>
+<h2 id="database--backend">Database &amp; Backend</h2>
+<h3 id="supabase-ai">Supabase AI</h3>
+<p><strong>What it does:</strong> Natural language to SQL query generation<br>
+<strong>Best for:</strong> Complex database queries, data analysis<br>
+<strong>Example:</strong> &ldquo;Show me users who signed up last month but haven&rsquo;t made a purchase&rdquo;</p>
+<h3 id="retool-ai">Retool AI</h3>
+<p><strong>What it does:</strong> Build internal tools with natural language<br>
+<strong>Best for:</strong> Admin dashboards, data entry forms, reporting tools<br>
+<strong>Speed:</strong> Can replace weeks of custom development</p>
+<h2 id="learning--skill-development">Learning &amp; Skill Development</h2>
+<h3 id="educative-ai-tutor">Educative AI Tutor</h3>
+<p><strong>What it does:</strong> Personalized programming tutorials and exercises<br>
+<strong>Best for:</strong> Learning new languages, interview preparation<br>
+<strong>Advantage:</strong> Adapts to your learning pace and style</p>
+<h3 id="codewars-ai-mentor">Codewars AI Mentor</h3>
+<p><strong>What it does:</strong> Explains solutions to coding challenges<br>
+<strong>Best for:</strong> Understanding different approaches to problem-solving<br>
+<strong>Learning method:</strong> Shows multiple solutions with complexity analysis</p>
+<h2 id="code-quality--review">Code Quality &amp; Review</h2>
+<h3 id="coderabbit">CodeRabbit</h3>
+<p><strong>What it does:</strong> AI-powered code review automation<br>
+<strong>Best for:</strong> Pull request reviews, style consistency<br>
+<strong>Team benefit:</strong> Ensures consistent code quality across team members</p>
+<h3 id="sonarqube-with-ai">SonarQube with AI</h3>
+<p><strong>What it does:</strong> Advanced static analysis with AI insights<br>
+<strong>Best for:</strong> Technical debt management, code maintainability<br>
+<strong>ROI:</strong> Identifies issues that would take hours to find manually</p>
+<h2 id="specialized-tools">Specialized Tools</h2>
+<h3 id="tabnine">Tabnine</h3>
+<p><strong>What it does:</strong> AI code completion trained on your codebase<br>
+<strong>Best for:</strong> Large codebases, consistent coding patterns<br>
+<strong>Privacy:</strong> Can run entirely on-premises</p>
+<h3 id="replit-ghostwriter">Replit Ghostwriter</h3>
+<p><strong>What it does:</strong> AI pair programmer in the browser<br>
+<strong>Best for:</strong> Quick prototypes, collaborative coding<br>
+<strong>Unique feature:</strong> Works entirely in the browser, no setup required</p>
+<h2 id="how-to-choose-the-right-tools">How to Choose the Right Tools</h2>
+<h3 id="consider-these-factors">Consider These Factors:</h3>
+<ol>
+<li><strong>Integration</strong> - Does it work with your existing workflow?</li>
+<li><strong>Privacy</strong> - What data is sent to external services?</li>
+<li><strong>Cost</strong> - Is the productivity gain worth the subscription?</li>
+<li><strong>Team adoption</strong> - Will your team actually use it?</li>
+</ol>
+<h3 id="my-recommendation-start-small">My Recommendation: Start Small</h3>
+<p>Don&rsquo;t try to adopt everything at once. Pick 2-3 tools that address your biggest pain points:</p>
+<ul>
+<li><strong>For individual productivity:</strong> GitHub Copilot + ChatGPT</li>
+<li><strong>For team quality:</strong> CodeRabbit + SonarQube</li>
+<li><strong>For learning:</strong> Educative AI + Codewars</li>
+</ul>
+<h2 id="the-human-element">The Human Element</h2>
+<p>Remember: AI tools are assistants, not replacements. They&rsquo;re best when they:</p>
+<ul>
+<li>Handle repetitive tasks</li>
+<li>Suggest solutions you might not consider</li>
+<li>Speed up research and learning</li>
+<li>Catch errors you might miss</li>
+</ul>
+<p>But critical thinking, creativity, and understanding your business context? That&rsquo;s still on you.</p>
+<h2 id="looking-ahead">Looking Ahead</h2>
+<p>The AI tooling landscape changes rapidly. What&rsquo;s cutting-edge today might be basic functionality tomorrow. Stay curious, experiment regularly, and focus on tools that genuinely make you more effective.</p>
+<p>What AI tools are you using? Which ones have had the biggest impact on your development workflow? I&rsquo;d love to hear about your experiences!</p>
+<hr>
+<p><em>Have you tried any of these tools? What&rsquo;s been your experience with AI-assisted development? Let me know in the comments below!</em></p>
+
+    </div>
+  </div>
+
+
+    <footer class="bg-black ph3 pv4 white">
+
+	<div class="mw7 center pt3">
+
+		<div class="measure-narrow center mb4">
+
+			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
+			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
+			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
+
+			<form action="" class="flex-ns mb3">
+
+  <fieldset class="flex-auto mb2 mb0-ns mr2-ns" name="newsletter" action="newsletter-subscribe">
+    <input type="text" id="email" placeholder="Your email" class="w-100">
+    <label for="email">Your email</label>
+  </fieldset>
+
+  <button class="btn mb3 w-100 w-auto-ns mb0-ns raise" type="submit">Submit</button>
+
+</form>
+
+
+		</div>
+
+		<div class="flex-ns justify-between">
+
+			<div>
+				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
+				<ul class="mb3">
+					<li><a href="/" class="link">Home</a></li>
+					<li><a href="/products" class="link">Our products</a></li>
+					<li><a href="/values" class="link">About</a></li>
+					<li><a href="/post" class="link">Blog</a></li>
+					<li><a href="/contact" class="link">Contact</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
+				<ul class="mb3">
+					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
+					<li><a href="/contact" class="link">Schedule an appointment</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
+				<ul class="mhn2">
+					<li class="dib ph2 raise">
+  <a href="#" class="link bg-white black db relative br-100 pa2">
+    
+    <svg width="16px" height="16px" class="db" aria-labelledby="alt-icons-facebook">
+      <title id="alt-icons-facebook">Kaldi on Facebook</title>
+        
+        
+          <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" enable-background="new 0 0 32 32"><path id="White_2_" d="M30.7.0H1.3C.6.0.0.6.0 1.3v29.3C0 31.4.6 32 1.3 32H17V20h-4v-5h4v-4c0-4.1 2.6-6.2 6.3-6.2 1.8.0 3.3.2 3.7.2v4.3h-2.6c-2 0-2.5 1-2.5 2.4V15h5l-1 5h-4l.1 12h8.6c.7.0 1.3-.6 1.3-1.3V1.3C32 .6 31.4.0 30.7.0z"/></svg>
+        
+    </svg>
+  </a>
+</li>
+
+					<li class="dib ph2 raise">
+  <a href="#" class="link bg-white black db relative br-100 pa2">
+    
+    <svg width="16px" height="16px" class="db" aria-labelledby="alt-icons-twitter">
+      <title id="alt-icons-twitter">Kaldi on Twitter</title>
+        
+        
+          <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" enable-background="new 0 0 32 32"><path d="M32 6.1c-1.2.5-2.4.9-3.8 1 1.4-.8 2.4-2.1 2.9-3.6-1.3.8-2.7 1.3-4.2 1.6C25.7 3.8 24 3 22.2 3c-3.6.0-6.6 2.9-6.6 6.6.0.5.1 1 .2 1.5C10.3 10.8 5.5 8.2 2.2 4.2c-.6 1-.9 2.1-.9 3.3.0 2.3 1.2 4.3 2.9 5.5-1.1.0-2.1-.3-3-.8v.1c0 3.2 2.3 5.8 5.3 6.4-.6.1-1.1.2-1.7.2-.4.0-.8.0-1.2-.1.8 2.6 3.3 4.5 6.1 4.6-2.2 1.8-5.1 2.8-8.2 2.8-.5.0-1.1.0-1.6-.1 3 1.8 6.5 2.9 10.2 2.9 12.1.0 18.7-10 18.7-18.7.0-.3.0-.6.0-.8 1.2-1 2.3-2.1 3.2-3.4z"/></svg>
+        
+    </svg>
+  </a>
+</li>
+
+					<li class="dib ph2 raise">
+  <a href="#" class="link bg-white black db relative br-100 pa2">
+    
+    <svg width="16px" height="16px" class="db" aria-labelledby="alt-icons-instagram">
+      <title id="alt-icons-instagram">Kaldi on Instagram</title>
+        
+        
+          <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" enable-background="new 0 0 32 32"><path d="M28.2.0H3.8C1.7.0.0 1.7.0 3.8v24.4C0 30.3 1.7 32 3.8 32h24.4c2.1.0 3.8-1.7 3.8-3.8V3.8C32 1.7 30.3.0 28.2.0zM24 4h3c.6.0 1 .4 1 1v3c0 .6-.4 1-1 1h-3c-.6.0-1-.4-1-1V5C23 4.4 23.4 4 24 4zM16 9.9c3.4.0 6.2 2.7 6.2 6.1s-2.8 6.1-6.2 6.1c-3.4.0-6.2-2.7-6.2-6.1C9.9 12.6 12.6 9.9 16 9.9zM28 29H4c-.6.0-1-.4-1-1V13h4c-.5.8-.7 2.1-.7 3 0 5.4 4.4 9.7 9.7 9.7 5.4.0 9.7-4.4 9.7-9.7.0-.9-.1-2.3-.8-3h4v15C29 28.6 28.6 29 28 29z"/></svg>
+        
+    </svg>
+  </a>
+</li>
+
+					<li class="dib ph2 raise">
+  <a href="#" class="link bg-white black db relative br-100 pa2">
+    
+    <svg width="16px" height="16px" class="db" aria-labelledby="alt-icons-vimeo">
+      <title id="alt-icons-vimeo">Kaldi on Vimeo</title>
+        
+        
+          <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" enable-background="new 0 0 32 32"><path d="M32 8.6c-.1 3.1-2.3 7.4-6.5 12.8-4.4 5.7-8 8.5-11 8.5-1.9.0-3.4-1.7-4.7-5.2-.9-3.2-1.7-6.3-2.6-9.5-1-3.4-2-5.2-3.1-5.2-.2.0-1.1.5-2.5 1.5L0 9.6c1.6-1.4 3.1-2.8 4.7-4.2 2.1-1.8 3.7-2.8 4.7-2.9 2.5-.2 4 1.5 4.6 5.1.6 3.9 1.1 6.4 1.3 7.3.7 3.3 1.5 4.9 2.4 4.9.7.0 1.7-1.1 3-3.2 1.3-2.1 2.1-3.7 2.2-4.8.2-1.8-.5-2.7-2.2-2.7-.8.0-1.6.2-2.4.5 1.6-5.2 4.6-7.7 9-7.5C30.6 2.3 32.2 4.4 32 8.6z"/></svg>
+        
+    </svg>
+  </a>
+</li>
+
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+</footer>
+
+
+
+    
+    
+      <script src="/main.27e79.js"></script>
+    
+  </body>
+</html>

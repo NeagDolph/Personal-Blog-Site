@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Development on </title>
+    <link>//localhost:1313/tags/web-development/</link>
+    <description>Recent content in Web Development on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Jan 2024 10:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with Hugo: A Developer&#39;s Journey</title>
+      <link>//localhost:1313/post/getting-started-with-hugo/</link>
+      <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/getting-started-with-hugo/</guid>
+      <description>&lt;h1 id=&#34;getting-started-with-hugo-a-developers-journey&#34;&gt;Getting Started with Hugo: A Developer&amp;rsquo;s Journey&lt;/h1&gt;&#xA;&lt;p&gt;Hugo has become one of the most popular static site generators, and for good reason. It&amp;rsquo;s fast, flexible, and perfect for developers who want to build modern websites without the complexity of traditional CMSs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-choose-hugo&#34;&gt;Why Choose Hugo?&lt;/h2&gt;&#xA;&lt;p&gt;Hugo stands out from other static site generators for several compelling reasons:&lt;/p&gt;&#xA;&lt;h3 id=&#34;lightning-fast-build-times&#34;&gt;Lightning Fast Build Times&lt;/h3&gt;&#xA;&lt;p&gt;Hugo can build most sites in under a second. This speed comes from its Go-based architecture, which handles thousands of pages without breaking a sweat.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

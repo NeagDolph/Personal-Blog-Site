@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on </title>
+    <link>//localhost:1313/tags/coding/</link>
+    <description>Recent content in Coding on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 25 Jan 2024 11:20:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Learn Any Programming Language in 30 Days</title>
+      <link>//localhost:1313/post/learning-languages/</link>
+      <pubDate>Thu, 25 Jan 2024 11:20:00 +0000</pubDate>
+      <guid>//localhost:1313/post/learning-languages/</guid>
+      <description>&lt;h1 id=&#34;how-to-learn-any-programming-language-in-30-days&#34;&gt;How to Learn Any Programming Language in 30 Days&lt;/h1&gt;&#xA;&lt;p&gt;As a developer, learning new programming languages is inevitable. Whether it&amp;rsquo;s for a new job, a side project, or just staying current with technology trends, the ability to quickly pick up new languages is a superpower.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve learned over a dozen programming languages in my career, and I&amp;rsquo;ve refined a systematic approach that works every time. Here&amp;rsquo;s my 30-day framework for mastering any programming language.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Tools Every Developer Should Know in 2024</title>
+      <link>//localhost:1313/post/ai-tools-developers/</link>
+      <pubDate>Sat, 20 Jan 2024 09:15:00 +0000</pubDate>
+      <guid>//localhost:1313/post/ai-tools-developers/</guid>
+      <description>&lt;h1 id=&#34;ai-tools-every-developer-should-know-in-2024&#34;&gt;AI Tools Every Developer Should Know in 2024&lt;/h1&gt;&#xA;&lt;p&gt;AI has moved from hype to reality, especially in software development. While some tools are just marketing fluff, others are genuinely transforming how we write, debug, and deploy code. Here&amp;rsquo;s my curated list of AI tools that actually deliver value.&lt;/p&gt;&#xA;&lt;h2 id=&#34;code-generation--assistance&#34;&gt;Code Generation &amp;amp; Assistance&lt;/h2&gt;&#xA;&lt;h3 id=&#34;github-copilot&#34;&gt;GitHub Copilot&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;What it does:&lt;/strong&gt; AI pair programmer that suggests code as you type&lt;br&gt;&#xA;&lt;strong&gt;Best for:&lt;/strong&gt; Boilerplate code, common patterns, documentation&lt;br&gt;&#xA;&lt;strong&gt;Pro tip:&lt;/strong&gt; Use descriptive comments to guide Copilot&amp;rsquo;s suggestions&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

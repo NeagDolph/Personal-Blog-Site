@@ -1,15 +1,23 @@
-disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
 title = "Neil's Blog"
 
 [params]
-displayName = "EN"
-isoCode = "en"
-rtl = false
-dateFormat = "2 January 2006"
-description = "A blog where I share insights from my journey through coding projects, tackle real-world development challenges, and break down key software engineering concepts. Whether you're a fellow developer or just curious about tech, this site details lessons I’ve learned from hands-on experience."
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/blowfish_logo_transparent.png"
+  description = "A blog where I share insights from my journey through coding projects, tackle real-world development challenges, and break down key software engineering concepts. Whether you're a fellow developer or just curious about tech, this site details lessons I’ve learned from hands-on experience."
 
-["params.author"]
-name = "Neil Agrawal"
+[params.author]
+  name = "Blowfish"
+  email = "nuno@n9o.xyz"
+  image = "img/blowfish_logo.png"
+  headline = "A powerful, lightweight theme for Hugo."
+  bio = "A powerful, lightweight theme for Hugo."
+  links = [
+    { x-twitter = "https://twitter.com/burufugu" },
+    { github = "https://github.com/nunocoracao/blowfish" },
+  ]
