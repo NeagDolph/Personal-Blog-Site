@@ -13,7 +13,7 @@
     "preview:hugo": "npm run start:hugo -- -D -F",
     "preview:webpack": "npm run start:webpack",
     "prebuild": "rimraf dist",
-    "build": "npm run build:webpack && hugo -d dist -v",
+    "build": "npm run build:webpack && hugo -d dist",
     "build:preview": "npm run build:webpack && hugo -d dist -v -D -F",
     "build:hugo": "hugo -d dist -v",
     "build:hugo:preview": "npm run build:hugo -- -D -F",
