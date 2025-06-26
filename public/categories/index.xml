@@ -2,14 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Neil&#39;s Blog</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>http://localhost:1315/categories/</link>
     <description>Recent content in Categories on Neil&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
     <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
     <copyright>© 2025 Blowfish</copyright>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jan 2024 11:20:00 +0000</lastBuildDate><atom:link href="http://localhost:1315/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Technology</title>
+      <link>http://localhost:1315/categories/technology/</link>
+      <pubDate>Thu, 25 Jan 2024 11:20:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1315/categories/technology/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Lifestyle</title>
+      <link>http://localhost:1315/categories/lifestyle/</link>
+      <pubDate>Wed, 10 Jan 2024 14:30:00 +0000</pubDate>
+      <author>nuno@n9o.xyz (Blowfish)</author>
+      <guid>http://localhost:1315/categories/lifestyle/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>
