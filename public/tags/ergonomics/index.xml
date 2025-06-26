@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ergonomics on Neil&#39;s Blog</title>
-    <link>http://localhost:1315/tags/ergonomics/</link>
+    <link>http://localhost:1313/tags/ergonomics/</link>
     <description>Recent content in Ergonomics on Neil&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
-    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
-    <copyright>© 2025 Blowfish</copyright>
-    <lastBuildDate>Mon, 08 Jan 2024 16:45:00 +0000</lastBuildDate><atom:link href="http://localhost:1315/tags/ergonomics/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>neil@neilagrawal.com (Neil Agrawal)</managingEditor>
+    <webMaster>neil@neilagrawal.com (Neil Agrawal)</webMaster>
+    <copyright>© 2025 Neil Agrawal</copyright>
+    <lastBuildDate>Mon, 08 Jan 2024 16:45:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ergonomics/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>The Complete Remote Work Setup Guide for 2024</title>
-      <link>http://localhost:1315/post/remote-work-setup/</link>
+      <link>http://localhost:1313/post/remote-work-setup/</link>
       <pubDate>Mon, 08 Jan 2024 16:45:00 +0000</pubDate>
-      <author>nuno@n9o.xyz (Blowfish)</author>
-      <guid>http://localhost:1315/post/remote-work-setup/</guid>
+      <author>neil@neilagrawal.com (Neil Agrawal)</author>
+      <guid>http://localhost:1313/post/remote-work-setup/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;The Complete Remote Work Setup Guide for 2024 
     &lt;div id=&#34;the-complete-remote-work-setup-guide-for-2024&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     

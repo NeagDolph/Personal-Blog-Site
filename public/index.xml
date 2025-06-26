@@ -2,140 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Neil&#39;s Blog</title>
-    <link>http://localhost:1315/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Neil&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
-    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
-    <copyright>© 2025 Blowfish</copyright>
-    <lastBuildDate>Thu, 25 Jan 2024 11:20:00 +0000</lastBuildDate><atom:link href="http://localhost:1315/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>neil@neilagrawal.com (Neil Agrawal)</managingEditor>
+    <webMaster>neil@neilagrawal.com (Neil Agrawal)</webMaster>
+    <copyright>© 2025 Neil Agrawal</copyright>
+    <lastBuildDate>Thu, 25 Jan 2024 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>How to Learn Any Programming Language in 30 Days</title>
-      <link>http://localhost:1315/post/learning-languages/</link>
-      <pubDate>Thu, 25 Jan 2024 11:20:00 +0000</pubDate>
-      <author>nuno@n9o.xyz (Blowfish)</author>
-      <guid>http://localhost:1315/post/learning-languages/</guid>
-      <description>&lt;h1 class=&#34;relative group&#34;&gt;How to Learn Any Programming Language in 30 Days 
-    &lt;div id=&#34;how-to-learn-any-programming-language-in-30-days&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+      <title>Building a Crossword Generator with Constraint Satisfaction Programming</title>
+      <link>http://localhost:1313/post/implementing-csp-crossword-generation/</link>
+      <pubDate>Thu, 25 Jan 2024 10:00:00 +0000</pubDate>
+      <author>neil@neilagrawal.com (Neil Agrawal)</author>
+      <guid>http://localhost:1313/post/implementing-csp-crossword-generation/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Building a Crossword Generator with Constraint Satisfaction Programming 
+    &lt;div id=&#34;building-a-crossword-generator-with-constraint-satisfaction-programming&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
     &lt;span
         class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#how-to-learn-any-programming-language-in-30-days&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#building-a-crossword-generator-with-constraint-satisfaction-programming&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
     &lt;/span&gt;        
     
 &lt;/h1&gt;
-&lt;p&gt;As a developer, learning new programming languages is inevitable. Whether it&amp;rsquo;s for a new job, a side project, or just staying current with technology trends, the ability to quickly pick up new languages is a superpower.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>AI Tools Every Developer Should Know in 2024</title>
-      <link>http://localhost:1315/post/ai-tools-developers/</link>
-      <pubDate>Sat, 20 Jan 2024 09:15:00 +0000</pubDate>
-      <author>nuno@n9o.xyz (Blowfish)</author>
-      <guid>http://localhost:1315/post/ai-tools-developers/</guid>
-      <description>&lt;h1 class=&#34;relative group&#34;&gt;AI Tools Every Developer Should Know in 2024 
-    &lt;div id=&#34;ai-tools-every-developer-should-know-in-2024&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#ai-tools-every-developer-should-know-in-2024&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h1&gt;
-&lt;p&gt;AI has moved from hype to reality, especially in software development. While some tools are just marketing fluff, others are genuinely transforming how we write, debug, and deploy code. Here&amp;rsquo;s my curated list of AI tools that actually deliver value.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo: A Developer&#39;s Journey</title>
-      <link>http://localhost:1315/post/getting-started-with-hugo/</link>
-      <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
-      <author>nuno@n9o.xyz (Blowfish)</author>
-      <guid>http://localhost:1315/post/getting-started-with-hugo/</guid>
-      <description>&lt;h1 class=&#34;relative group&#34;&gt;Getting Started with Hugo: A Developer&amp;rsquo;s Journey 
-    &lt;div id=&#34;getting-started-with-hugo-a-developers-journey&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#getting-started-with-hugo-a-developers-journey&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h1&gt;
-&lt;p&gt;Hugo has become one of the most popular static site generators, and for good reason. It&amp;rsquo;s fast, flexible, and perfect for developers who want to build modern websites without the complexity of traditional CMSs.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>10 Productivity Tips That Actually Work in 2024</title>
-      <link>http://localhost:1315/post/productivity-tips-2024/</link>
-      <pubDate>Wed, 10 Jan 2024 14:30:00 +0000</pubDate>
-      <author>nuno@n9o.xyz (Blowfish)</author>
-      <guid>http://localhost:1315/post/productivity-tips-2024/</guid>
-      <description>&lt;h1 class=&#34;relative group&#34;&gt;10 Productivity Tips That Actually Work in 2024 
-    &lt;div id=&#34;10-productivity-tips-that-actually-work-in-2024&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#10-productivity-tips-that-actually-work-in-2024&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h1&gt;
-&lt;p&gt;We&amp;rsquo;re bombarded with productivity advice everywhere we look. Most of it is recycled wisdom that sounds good in theory but falls apart in practice. After experimenting with dozens of techniques, here are the ones that actually move the needle.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>The Complete Remote Work Setup Guide for 2024</title>
-      <link>http://localhost:1315/post/remote-work-setup/</link>
-      <pubDate>Mon, 08 Jan 2024 16:45:00 +0000</pubDate>
-      <author>nuno@n9o.xyz (Blowfish)</author>
-      <guid>http://localhost:1315/post/remote-work-setup/</guid>
-      <description>&lt;h1 class=&#34;relative group&#34;&gt;The Complete Remote Work Setup Guide for 2024 
-    &lt;div id=&#34;the-complete-remote-work-setup-guide-for-2024&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-    &lt;span
-        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
-        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline&#34; href=&#34;#the-complete-remote-work-setup-guide-for-2024&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
-    &lt;/span&gt;        
-    
-&lt;/h1&gt;
-&lt;p&gt;Remote work isn&amp;rsquo;t going anywhere. Whether you&amp;rsquo;re a seasoned remote worker or just getting started, having the right setup can make the difference between thriving and merely surviving in your home office.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>A beginners’ guide to brewing with Chemex</title>
-      <link>http://localhost:1315/post/brewing-chemex/</link>
-      <pubDate>Wed, 04 Jan 2017 15:04:10 +0000</pubDate>
-      <author>nuno@n9o.xyz (Blowfish)</author>
-      <guid>http://localhost:1315/post/brewing-chemex/</guid>
-      <description>&lt;p&gt;This &lt;a
-  href=&#34;http://localhost:1315/wdwdw&#34;&gt;week&lt;/a&gt;
- we’ll &lt;strong&gt;take&lt;/strong&gt; a look at all the steps required to make astonishing coffee with a Chemex at home. The Chemex Coffeemaker is a manual, pour-over style glass-container coffeemaker that Peter Schlumbohm invented in 1941, and which continues to be manufactured by the Chemex Corporation in Chicopee, Massachusetts*.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Just in: small batch of Jamaican Blue Mountain in store next week</title>
-      <link>http://localhost:1315/post/jamaica-blue/</link>
-      <pubDate>Wed, 04 Jan 2017 15:04:10 +0000</pubDate>
-      <author>nuno@n9o.xyz (Blowfish)</author>
-      <guid>http://localhost:1315/post/jamaica-blue/</guid>
-      <description>&lt;p&gt;We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.&lt;/p&gt;
-&lt;p&gt;Blue Mountain Peak is the highest mountain in Jamaica and one of the highest peaks in the Caribbean at 7,402 ft. It is the home of Blue Mountain coffee and their famous tours. It is located on the border of the Portland and Saint Thomas parishes of Jamaica.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Making sense of the SCAA’s new Flavor Wheel</title>
-      <link>http://localhost:1315/post/making-sense/</link>
-      <pubDate>Sat, 17 Dec 2016 15:04:10 +0000</pubDate>
-      <author>nuno@n9o.xyz (Blowfish)</author>
-      <guid>http://localhost:1315/post/making-sense/</guid>
-      <description>&lt;p&gt;The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.&lt;/p&gt;</description>
+&lt;p&gt;Have you ever wondered how computers can automatically generate crossword puzzles? It turns out this seemingly simple task is actually a fascinating artificial intelligence problem that combines logic, optimization, and creative problem-solving. In this post, I&amp;rsquo;ll walk you through how I implemented a crossword generator using &lt;strong&gt;Constraint Satisfaction Programming (CSP)&lt;/strong&gt; as part of my CS4100 project, breaking down complex concepts into digestible pieces.&lt;/p&gt;</description>
       
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Skill Building on Neil&#39;s Blog</title>
-    <link>http://localhost:1315/tags/skill-building/</link>
+    <link>http://localhost:1313/tags/skill-building/</link>
     <description>Recent content in Skill Building on Neil&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
-    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
-    <copyright>© 2025 Blowfish</copyright>
-    <lastBuildDate>Thu, 25 Jan 2024 11:20:00 +0000</lastBuildDate><atom:link href="http://localhost:1315/tags/skill-building/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>neil@neilagrawal.com (Neil Agrawal)</managingEditor>
+    <webMaster>neil@neilagrawal.com (Neil Agrawal)</webMaster>
+    <copyright>© 2025 Neil Agrawal</copyright>
+    <lastBuildDate>Thu, 25 Jan 2024 11:20:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/skill-building/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to Learn Any Programming Language in 30 Days</title>
-      <link>http://localhost:1315/post/learning-languages/</link>
+      <link>http://localhost:1313/post/learning-languages/</link>
       <pubDate>Thu, 25 Jan 2024 11:20:00 +0000</pubDate>
-      <author>nuno@n9o.xyz (Blowfish)</author>
-      <guid>http://localhost:1315/post/learning-languages/</guid>
+      <author>neil@neilagrawal.com (Neil Agrawal)</author>
+      <guid>http://localhost:1313/post/learning-languages/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;How to Learn Any Programming Language in 30 Days 
     &lt;div id=&#34;how-to-learn-any-programming-language-in-30-days&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     

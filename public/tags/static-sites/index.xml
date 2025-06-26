@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Static Sites on Neil&#39;s Blog</title>
-    <link>http://localhost:1315/tags/static-sites/</link>
+    <link>http://localhost:1313/tags/static-sites/</link>
     <description>Recent content in Static Sites on Neil&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>nuno@n9o.xyz (Blowfish)</managingEditor>
-    <webMaster>nuno@n9o.xyz (Blowfish)</webMaster>
-    <copyright>© 2025 Blowfish</copyright>
-    <lastBuildDate>Mon, 15 Jan 2024 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1315/tags/static-sites/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>neil@neilagrawal.com (Neil Agrawal)</managingEditor>
+    <webMaster>neil@neilagrawal.com (Neil Agrawal)</webMaster>
+    <copyright>© 2025 Neil Agrawal</copyright>
+    <lastBuildDate>Mon, 15 Jan 2024 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/static-sites/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Getting Started with Hugo: A Developer&#39;s Journey</title>
-      <link>http://localhost:1315/post/getting-started-with-hugo/</link>
+      <link>http://localhost:1313/post/getting-started-with-hugo/</link>
       <pubDate>Mon, 15 Jan 2024 10:00:00 +0000</pubDate>
-      <author>nuno@n9o.xyz (Blowfish)</author>
-      <guid>http://localhost:1315/post/getting-started-with-hugo/</guid>
+      <author>neil@neilagrawal.com (Neil Agrawal)</author>
+      <guid>http://localhost:1313/post/getting-started-with-hugo/</guid>
       <description>&lt;h1 class=&#34;relative group&#34;&gt;Getting Started with Hugo: A Developer&amp;rsquo;s Journey 
     &lt;div id=&#34;getting-started-with-hugo-a-developers-journey&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
