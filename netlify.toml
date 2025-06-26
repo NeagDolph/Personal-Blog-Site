@@ -1,13 +1,14 @@
 [build.environment]
   NETLIFY_USE_YARN = "true"
   YARN_VERSION = "1.22.17"
+  HUGO_VERSION = "0.140.2"
 
 [build]
-  command = "yarn build"
+  command = "yarn build:webpack && hugo -d dist -v"
   publish = "dist"
 
 [context.deploy-preview]
-  command = "yarn build:preview"
+  command = "yarn build:webpack && hugo -d dist -v -D -F"
 
 [dev]
   framework = "hugo"
