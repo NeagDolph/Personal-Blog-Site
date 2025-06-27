@@ -2,7 +2,7 @@
 title: "About Me"
 date: 2025-06-25T10:00:00Z
 description: "Get to know Neil Agrawal - Computer Science student, AI enthusiast, and full-stack developer with experience in DevOps, web development, and innovative project creation."
-tags: ["about", "developer", "ai", "devops", "computer science", "northeastern"]
+tags: ["about", "developer", "ai", "devops", "computer science", "student"]
 categories: ["Personal"]
 author: "Neil Agrawal"
 showToc: true
@@ -12,13 +12,12 @@ showPagination: false
 showEdit: false
 ---
 
-{{< lead >}}
-Passionate Computer Science student specializing in Artificial Intelligence, with hands-on experience in DevOps, web development, and building innovative applications that make a difference.
-{{< /lead >}}
 
+{{< lead >}}
 ## 👋 Hello, I'm Neil!
 
 I'm a Computer Science student at Northeastern University's Khoury College, where I'm pursuing my Bachelor's degree with a concentration in Artificial Intelligence. With a strong academic foundation and diverse professional experience across multiple continents, I'm passionate about leveraging technology to solve complex problems and create meaningful impact.
+{{< /lead >}}
 
 ## 🎓 Education
 

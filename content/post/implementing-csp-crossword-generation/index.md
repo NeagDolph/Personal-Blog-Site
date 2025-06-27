@@ -6,6 +6,7 @@ tags: ["ai", "csp", "constraint satisfaction", "algorithms", "python", "artifici
 categories: ["Artificial Intelligence"]
 author: "Neil Agrawal"
 showToc: true
+showHero: true
 ---
 
 # Building a Crossword Generator with Constraint Satisfaction Programming

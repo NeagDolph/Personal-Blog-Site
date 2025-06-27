@@ -9,14 +9,18 @@
 }
 
 /* Hide particles when zen mode is enabled */
-body.zen-mode-enable #particles-js {
+body.zen-mode-enable #particles-js, body.zen-mode-enable .single_hero_background {
   display: none !important;
 }
 
 /* Hide the default background.svg on elements with particles background */
-.particles-background .single_hero_background {
+/* .particles-background .single_hero_background {
   background-image: none !important;
   background: transparent !important;
+} */
+
+#hero {
+  height: 0;
 }
 
 /* Ensure particles canvas covers the full area */

@@ -1,4 +1,4 @@
-colorScheme = "blowfish"
+colorScheme = "ocean"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
@@ -59,7 +59,7 @@ layoutBackgroundHeaderSpace = true
 showBreadcrumbs = true
 showDraftLabel = true
 showEdit = true
-editURL = "https://github.com/NeagDolph/Personal-Blog-Site/tree/main/site/content"
+editURL = "https://github.com/NeagDolph/Personal-Blog-Site/tree/main/content"
 editAppendPath = true
 seriesOpened = false
 showHeadingAnchors = true
