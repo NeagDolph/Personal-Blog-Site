@@ -16,8 +16,10 @@ title = "Neil's Blog"
   name = "Neil Agrawal"
   email = "neil@neilagrawal.com"
   image = "img/blog_logo.png"
-  headline = "Software Developer & Computer Science Student"
+  headline = "Computer Science Student & Software Developer"
   bio = "I'm a computer science student passionate about artificial intelligence, software engineering, and solving complex problems through code."
   links = [
     { github = "https://github.com/NeagDolph" },
+    { linkedin = "https://www.linkedin.com/in/neil-agrawal-/" },
+    { lightbulb = "/resume/neil_agrawal_resume_1_12_25.pdf" }
   ]

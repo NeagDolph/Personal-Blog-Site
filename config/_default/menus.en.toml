@@ -16,9 +16,14 @@
   weight = 9
 
 [[main]]
+  name = "Projects"
+  pageRef = "projects"
+  weight = 10
+
+[[main]]
   name = "About Me"
   pageRef = "about"
-  weight = 10
+  weight = 11
 
 
 [[main]]
@@ -32,7 +37,7 @@
   identifier = "linkedin"
   pre = "linkedin"
   url = "https://www.linkedin.com/in/neil-agrawal-/"
-  weight = 20
+  weight = 21
 
 
 # -- Footer Menu --

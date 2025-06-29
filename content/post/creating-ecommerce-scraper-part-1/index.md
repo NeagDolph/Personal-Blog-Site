@@ -12,13 +12,13 @@ series_order: 1
 ---
 
 {{< lead >}}
-What if you could extract product data from **any ecommerce website** without writing a single line of custom scraping code?
+What if you could extract products from **any ecommerce website** without writing any site-specific scraping code?
 
-I spent the last month building exactly that - a universal ecommerce scraper powered by LLMs. No more brittle XPath selectors that break when a site updates. No more maintaining dozens of site-specific parsers. Just point it at any online store and watch it extract products like magic.
+I spent the last month building exactly that - a universal ecommerce scraper powered by LLMs. No more brittle selectors that break when a site updates, no more maintaining dozens of site-specific modules. Just point it at any online store and watch it extract products.
 
-Here's the catch: doing this naively with LLMs would cost a fortune. My first attempt burned through millions of tokens trying to scrape a single website. But after some optimization, I've gotten that down to only 5-10k tokens per site while actually *improving* accuracy.
+Here's the catch, doing this naively with LLMs would cost a fortune. My first attempt burned through millions of tokens trying to scrape a single website. But after optimization, I've gotten that down to only 5-10k tokens per site while actually *improving* accuracy.
 
-This is part 1 of a series where I'll show you how to build a scraper that can handle everything from tiny Shopify stores to e-commerce giants like QVC. Along the way, we'll dive into some fascinating problems, like filtering HTML using NLP Models, or generating reusable extraction schemas that work across thousands of pages.
+This is part 1 of a series where I'll show you how to build a product scraper that can handle everything from tiny Shopify stores to e-commerce giants like QVC. Along the way we'll discuss some interesting techniques like filtering HTML using NLP Models, and generating reusable extraction schemas that work across thousands of pages on a site.
 
 {{< /lead >}}
 
@@ -26,11 +26,11 @@ This is part 1 of a series where I'll show you how to build a scraper that can h
 
 Since there's so much variability in how HTML is structured for different websites, we need an approach that's adaptable and can understand the nuance of each website's layout. LLMs like ChatGPT are a great tool to throw at this kind of problem since they can understand the structure of each page well enough without having to write custom scraping tools for each e-commerce store.
 
-There are **two main aspects** to product extraction. 
+There are **two main aspects** to product extraction from an e-commerce website: 
 
-1. **Finding Category Links:** We need to find the URL's for all PLPs (product listing pages) where products are listed. 
+1. **Finding Category Links:** We need to find the URLs for each PLPs (product listing page) on the site. 
 
-2. **Extracting Products:** we need to extract the title, price, description, image URL, etc for each product and from each PLP.
+2. **Extracting Products:** We need to extract the title, price, description, PDP (product detail page) URL, etc, for each product from the PLP pages.
 
 ## Finding Category Links
 
@@ -120,7 +120,7 @@ Now we have a set of PLP URLs that likely contain products. The next challenge i
 
 ### Approach 1: Pass it all to an LLM (again)
 
-My first instinct again was to just pass the entire HTML of each product page to an LLM and ask it to extract products.
+Hammer, nail, yada yada, my first instinct again was to just pass the entire HTML of each PLP to an LLM and ask it to extract the products.
 
 ```python
 def extract_products_naive(url):
@@ -350,7 +350,9 @@ Here are some challenges/edge-cases I encountered:
 - **Sale banners/promotional content** Often score high in content filters because they contain product-like language
 - **Category pages without products** Pages that describe categories but don't actually list any products
 - **Variant selectors** Products with multiple options affecting price/availability
-- **Anti-scraping measures** Captchas, IP blocking, and honeypot links
+- **Anti-scraping measures** Captchas, IP blocking, Bot detection
+
+I'll go over these in more detail in future posts.
 
 ## Conclusion
 
@@ -363,7 +365,7 @@ In subsequent parts I'll go over handling pagination, improved PLP page classifi
 
 ---
 
-*Check out the [implementation](https://github.com/NeagDolph/competitive) on GitHub.*
+{{< github repo="NeagDolph/competitive" showThumbnail=true >}}
 
 
 

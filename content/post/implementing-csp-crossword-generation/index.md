@@ -325,4 +325,6 @@ The combination of efficient constraint propagation, heuristics, and backtrackin
 
 ---
 
-*Want to dive deeper into the technical details? Check out the [full research paper](/papers/CS4100_Project_Report.pdf) and [implementation](https://github.com/NeagDolph/CS4100-crossword-generator) on GitHub.*
+{{< github repo="NeagDolph/CS4100-crossword-generator" showThumbnail=true >}}
+
+*Want to dive deeper into the technical details? Check out the [full research paper](/papers/CS4100_Project_Report.pdf)*

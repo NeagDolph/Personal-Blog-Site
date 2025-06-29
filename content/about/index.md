@@ -19,7 +19,7 @@ showEdit: false
 I'm a Computer Science student at Northeastern University's Khoury College, where I'm pursuing my Bachelor's degree with a concentration in Artificial Intelligence. With a strong academic foundation and diverse professional experience across multiple continents, I'm passionate about leveraging technology to solve complex problems and create meaningful impact.
 {{< /lead >}}
 
-## 🎓 Education
+## Education
 
 **Northeastern University** | *Sep 2022 – Dec 2026*  
 Bachelor of Science in Computer Science  
@@ -35,7 +35,7 @@ Bachelor of Science in Computer Science
 - Introduction to Cybersecurity
 - Systems
 
-## 💼 Professional Experience
+## Professional Experience
 
 ### DevOps Software Engineer Co-op
 **Wolters Kluwer** | *Waltham, MA* | *Jul 2024 – Dec 2024*
@@ -58,7 +58,7 @@ Bachelor of Science in Computer Science
 - **Email Infrastructure**: Led transition to new email service provider, improving delivery rates and reducing costs
 - **E-commerce Optimization**: Revamped multiple Salesforce Ecommerce Store pages to optimize user experience and conversion rates
 
-## 🚀 Featured Projects
+## Projects
 
 ### SmartFile
 **May 2024 – Present**  
@@ -107,7 +107,7 @@ A non-profit mindfulness application designed to foster mental well-being across
 ### Development Tools
 Git, Gradle, Maven, Jira, CI/CD Pipelines, Helm, Kubernetes
 
-## 📫 Let's Connect!
+## Let's Connect!
 
 I'm always excited to discuss new opportunities, collaborate on interesting projects, or simply chat about the latest in AI and technology.
 
@@ -117,4 +117,4 @@ I'm always excited to discuss new opportunities, collaborate on interesting proj
 
 ---
 
-*Currently open to internship opportunities and exciting projects that push the boundaries of what's possible.*
+*Currently open to internship opportunities and exciting projects.*

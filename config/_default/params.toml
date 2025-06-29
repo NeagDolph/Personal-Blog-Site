@@ -1,4 +1,4 @@
-colorScheme = "ocean"
+colorScheme = "noir"
 defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
@@ -10,7 +10,7 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 defaultBackgroundImage = ""
 defaultFeaturedImage = "/img/featured.svg"
-defaultSocialImage = "/img/blowfish.jpg"
+defaultSocialImage = "/img/blog_logo.png"
 highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = false
@@ -30,14 +30,15 @@ layout = "fixed"
 [footer]
 showMenu = true
 showCopyright = true
-showThemeAttribution = true
+showThemeAttribution = false
 showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "page"
+layout = "custom"
+homepageImage = "img/gradient_background_generated.png"
 showRecent = true
-showRecentItems = 8
+showRecentItems = 6
 showMoreLink = true
 showMoreLinkDest = "post"
 cardView = true
