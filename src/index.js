@@ -1,7 +1,5 @@
 // JS Goes here - ES6 supported
 
-import "./css/main.scss";
-
 const mobileMenu = document.querySelector("[data-mobile-menu]");
 const nav = document.querySelector("[data-nav]");
 

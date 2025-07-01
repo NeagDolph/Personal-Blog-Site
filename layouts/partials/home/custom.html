@@ -25,7 +25,7 @@
             <img class="h-full w-full object-cover m-0 nozoom margin-0" src="{{ $homepageImage.RelPermalink }}">
             {{ if not $disableHeroImageFilter }}
               <div
-                class="absolute inset-0 bg-blue-500 opacity-10"></div>
+                class="absolute inset-0 bg-blue-500 opacity-30"></div>
             {{ else }}
               <div
                 class="absolute inset-0 from-primary-500 to-secondary-600 dark:from-primary-600 dark:to-secondary-800 mix-blend-multiply"></div>
@@ -58,7 +58,7 @@
               {{ .Site.Params.Author.name | default .Site.Title }}
             </h1>
             {{ with .Site.Params.Author.headline }}
-              <h2 class="mt-0 mb-0 text-xl text-neutral-300">
+              <h2 class="mt-0 mb-0 text-xl text-blue-200">
                 {{ . | markdownify }}
               </h2>
             {{ end }}
@@ -67,7 +67,7 @@
               {{ .Site.Params.Author.name | default .Site.Title }}
             </h1>
             {{ with .Site.Params.Author.headline }}
-              <h2 class="mt-0 mb-0 text-xl text-neutral-800 dark:text-neutral-300">
+              <h2 class="mt-0 mb-0 text-xl text-neutral-800">
                 {{ . | markdownify }}
               </h2>
             {{ end }}

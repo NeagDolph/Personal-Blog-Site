@@ -22,8 +22,13 @@
     "cypress:run": "cypress run --e2e",
     "hugo-server": "hugo server",
     "build-preview": "yarn build --mode=production",
-    "dev": "themes/blowfish/node_modules/.bin/tailwindcss -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css -w",
-    "build:css": "NODE_ENV=production themes/blowfish/node_modules/.bin/tailwindcss -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --minify"
+    "dev": "NODE_ENV=development npx tailwindcss -i ./assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
+    "build:css": "NODE_ENV=production npx tailwindcss -i ./assets/css/main.css -o ./assets/css/compiled/main.css --jit --minify",
+    "postinstall": "vendor-copy",
+    "assets": "rimraf assets/vendor && vendor-copy",
+    "serve": "run-p serve:**",
+    "serve:hugo": "hugo server --disableFastRender",
+    "serve:tailwind": "yarn dev"
   },
   "author": "",
   "license": "MIT",
@@ -67,7 +72,19 @@
     "webpack": "^5.64.1",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.5.0",
-    "webpack-merge": "^5.8.0"
+    "webpack-merge": "^5.8.0",
+    "chart.js": "^4.4.9",
+    "fuse.js": "^7.1.0",
+    "jquery": "^3.7.1",
+    "katex": "^0.16.22",
+    "lite-youtube-embed": "^0.3.3",
+    "medium-zoom": "^1.1.0",
+    "mermaid": "^11.6.0",
+    "packery": "^3.0.0",
+    "tailwind-scrollbar": "^4.0.2",
+    "tw-elements": "2.0.0",
+    "typeit": "^8.8.7",
+    "vendor-copy": "^3.0.1"
   },
   "dependencies": {
     "@babel/preset-react": "^7.17.12",
@@ -79,5 +96,64 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "to-string-loader": "^1.2.0"
-  }
+  },
+  "vendorCopy": [],
+  "devVendorCopy": [
+    {
+      "from": "node_modules/mermaid/dist/mermaid.min.js",
+      "to": "assets/lib/mermaid/mermaid.min.js"
+    },
+    {
+      "from": "node_modules/chart.js/dist/chart.umd.js",
+      "to": "assets/lib/chart/chart.min.js"
+    },
+    {
+      "from": "node_modules/katex/dist/katex.min.js",
+      "to": "assets/lib/katex/katex.min.js"
+    },
+    {
+      "from": "node_modules/katex/dist/katex.min.css",
+      "to": "assets/lib/katex/katex.min.css"
+    },
+    {
+      "from": "node_modules/katex/dist/contrib/auto-render.min.js",
+      "to": "assets/lib/katex/auto-render.min.js"
+    },
+    {
+      "from": "node_modules/katex/dist/fonts/",
+      "to": "assets/lib/katex/fonts/"
+    },
+    {
+      "from": "node_modules/fuse.js/dist/fuse.min.js",
+      "to": "assets/lib/fuse/fuse.min.js"
+    },
+    {
+      "from": "node_modules/typeit/dist/index.umd.js",
+      "to": "assets/lib/typeit/typeit.umd.js"
+    },
+    {
+      "from": "node_modules/jquery/dist/jquery.slim.min.js",
+      "to": "assets/lib/jquery/jquery.slim.min.js"
+    },
+    {
+      "from": "node_modules/packery/dist/packery.pkgd.min.js",
+      "to": "assets/lib/packery/packery.pkgd.min.js"
+    },
+    {
+      "from": "node_modules/tw-elements/js/tw-elements.umd.min.js",
+      "to": "assets/lib/tw-elements/index.min.js"
+    },
+    {
+      "from": "node_modules/lite-youtube-embed/src/lite-yt-embed.js",
+      "to": "assets/lib/lite-youtube-embed/lite-yt-embed.js"
+    },
+    {
+      "from": "node_modules/lite-youtube-embed/src/lite-yt-embed.css",
+      "to": "assets/lib/lite-youtube-embed/lite-yt-embed.css"
+    },
+    {
+      "from": "node_modules/medium-zoom/dist/medium-zoom.min.js",
+      "to": "assets/lib/zoom/zoom.min.js"
+    }
+  ]
 }
